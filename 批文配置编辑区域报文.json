@@ -1,0 +1,400 @@
+{
+	[
+		{
+			"templateCode":"基础模板编码0001",
+			"approvalTemplateDomainMap":{
+				"add":{
+					"loopElementInfo":{
+						"elementCode":"要素Code",
+						"parentElementCode":"父级要素Code",
+						"specId":"技术组件唯一ID",
+						"path":"要素定位路径",
+						"pathDesc":"要素定位路径描述",
+						"dataSource":"数据来源 0保单 1批单",
+						"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+						"showFormat":"显示格式"
+					},
+					"content":[
+						{
+							"getType":"文本",
+							"content":"文本内容"
+						},
+						{
+							"getType":"变量",
+							"elementCode":"要素Code", // 要素名称
+							"parentElementCode":"父级要素Code", // 要素大类
+							"specId":"技术组件唯一ID",
+							"path":"要素定位路径",
+							"pathDesc":"要素定位路径描述",
+							"dataSource":"数据来源 0保单 1批单",
+							"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+							"showFormat":"显示格式"
+						},
+						{
+							"getType":"组合",
+							"combinationContent":[
+								{
+									"getType":"文本",
+									"content":"组合内容1--文本"
+								},
+								{
+									"getType":"变量",
+									"elementCode":"组合内容2--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								},
+								{
+									"getType":"文本",
+									"content":"组合内容3--文本"
+								},
+								{
+									"getType":"变量",
+									"elementCode":"组合内容4--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								}
+							]
+						}
+					]
+				},
+				"update":{
+					"loopElementInfo":{
+						"elementCode":"要素Code",
+						"parentElementCode":"父级要素Code",
+						"specId":"技术组件唯一ID",
+						"path":"要素定位路径",
+						"pathDesc":"要素定位路径描述",
+						"dataSource":"数据来源 0保单 1批单",
+						"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+						"showFormat":"显示格式"
+					},
+					"content":[
+						{
+							"getType":"文本",
+							"content":"文本内容"
+						},{
+							"getType":"变量",
+							"elementCode":"要素Code",
+							"parentElementCode":"父级要素Code",
+							"specId":"技术组件唯一ID",
+							"path":"要素定位路径",
+							"pathDesc":"要素定位路径描述",
+							"dataSource":"数据来源 0保单 1批单",
+							"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+							"showFormat":"显示格式"
+						},{
+							"getType":"组合",
+							"combinationContent":[
+								{
+									"getType":"文本",
+									"content":"组合内容1--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容2--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								},{
+									"getType":"文本",
+									"content":"组合内容3--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容4--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								}
+							]
+						}
+					]
+				},
+				"delete":{
+					"loopElementInfo":{
+						"elementCode":"要素Code",
+						"parentElementCode":"父级要素Code",
+						"specId":"技术组件唯一ID",
+						"path":"要素定位路径",
+						"pathDesc":"要素定位路径描述",
+						"dataSource":"数据来源 0保单 1批单",
+						"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+						"showFormat":"显示格式"
+					},
+					"content":[
+						{
+							"getType":"文本",
+							"content":"文本内容"
+						},{
+							"getType":"变量",
+							"elementCode":"要素Code",
+							"parentElementCode":"父级要素Code",
+							"specId":"技术组件唯一ID",
+							"path":"要素定位路径",
+							"pathDesc":"要素定位路径描述",
+							"dataSource":"数据来源 0保单 1批单",
+							"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+							"showFormat":"显示格式"
+						},{
+							"getType":"组合",
+							"combinationContent":[
+								{
+									"getType":"文本",
+									"content":"组合内容1--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容2--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								},{
+									"getType":"文本",
+									"content":"组合内容3--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容4--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								}
+							]
+						}
+					]
+				}
+			}
+			
+		},
+		{
+			"templateCode":"基础模板编码0002",
+			"approvalTemplateDomainMap":{
+				"add":{
+					"loopElementInfo":{
+						"elementCode":"要素Code",
+						"parentElementCode":"父级要素Code",
+						"specId":"技术组件唯一ID",
+						"path":"要素定位路径",
+						"pathDesc":"要素定位路径描述",
+						"dataSource":"数据来源 0保单 1批单",
+						"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+						"showFormat":"显示格式"
+					},
+					"content":[
+						{
+							"getType":"文本",
+							"content":"文本内容"
+						},{
+							"getType":"变量",
+							"elementCode":"要素Code",
+							"parentElementCode":"父级要素Code",
+							"specId":"技术组件唯一ID",
+							"path":"要素定位路径",
+							"pathDesc":"要素定位路径描述",
+							"dataSource":"数据来源 0保单 1批单",
+							"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+							"showFormat":"显示格式"
+						},{
+							"getType":"组合",
+							"combinationContent":[
+								{
+									"getType":"文本",
+									"content":"组合内容1--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容2--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								},{
+									"getType":"文本",
+									"content":"组合内容3--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容4--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								}
+							]
+						}
+					]
+				},
+				"update":{
+					"loopElementInfo":{
+						"elementCode":"要素Code",
+						"parentElementCode":"父级要素Code",
+						"specId":"技术组件唯一ID",
+						"path":"要素定位路径",
+						"pathDesc":"要素定位路径描述",
+						"dataSource":"数据来源 0保单 1批单",
+						"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+						"showFormat":"显示格式"
+					},
+					"content":[
+						{
+							"getType":"文本",
+							"content":"文本内容"
+						},{
+							"getType":"变量",
+							"elementCode":"要素Code",
+							"parentElementCode":"父级要素Code",
+							"specId":"技术组件唯一ID",
+							"path":"要素定位路径",
+							"pathDesc":"要素定位路径描述",
+							"dataSource":"数据来源 0保单 1批单",
+							"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+							"showFormat":"显示格式"
+						},{
+							"getType":"组合",
+							"combinationContent":[
+								{
+									"getType":"文本",
+									"content":"组合内容1--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容2--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								},{
+									"getType":"文本",
+									"content":"组合内容3--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容4--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								}
+							]
+						}
+					]
+				},
+				"delete":{
+					"loopElementInfo":{
+						"elementCode":"要素Code",
+						"parentElementCode":"父级要素Code",
+						"specId":"技术组件唯一ID",
+						"path":"要素定位路径",
+						"pathDesc":"要素定位路径描述",
+						"dataSource":"数据来源 0保单 1批单",
+						"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+						"showFormat":"显示格式"
+					},
+					"content":[
+						{
+							"getType":"文本",
+							"content":"文本内容"
+						},{
+							"getType":"变量",
+							"elementCode":"要素Code",
+							"parentElementCode":"父级要素Code",
+							"specId":"技术组件唯一ID",
+							"path":"要素定位路径",
+							"pathDesc":"要素定位路径描述",
+							"dataSource":"数据来源 0保单 1批单",
+							"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+							"showFormat":"显示格式"
+						},{
+							"getType":"组合",
+							"combinationContent":[
+								{
+									"getType":"文本",
+									"content":"组合内容1--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容2--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								},{
+									"getType":"文本",
+									"content":"组合内容3--文本"
+								},{
+									"getType":"变量",
+									"elementCode":"组合内容4--变量",
+									"parentElementCode":"父级要素Code",
+									"specId":"技术组件唯一ID",
+									"path":"要素定位路径",
+									"pathDesc":"要素定位路径描述",
+									"dataSource":"数据来源 0保单 1批单",
+									"oldNewFlag":"数据来源类型 0原保批单 1新保批单",
+									"showFormat":"显示格式"
+								}
+							]
+						}
+					]
+				}
+			}
+			
+		}
+	]
+}
+
+
+data.forEach((item) => {
+      if (item.getType === '文本') {
+        innerData.push({
+          id: uuidv4(),
+          value: item.content,
+          type: whichType(item.getType),
+          form: 'textArea',
+        });
+      } else if (item.getType === '变量') {
+        innerData.push({
+          id: uuidv4(),
+          value: item.content,
+          type: whichType(item.getType),
+          parentElementCode: item.parentElementCode,
+          elementCode: item.elementCode,
+          form: 'textArea',
+        });
+      } else if (item.getType === '组合') {
+        
+      } else {
+        return null;
+      }
+    });
